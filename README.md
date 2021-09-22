@@ -69,3 +69,5 @@ run `bundle exec rails db:seed` to populate initial data
 
 * Solution  
 The solution uses [datatable.net](https://datatables.net/) for many of the table functionalities. [This blogpost](https://aarvy.me/blog/2019/09/21/datatables-with-bootstrap-4-minimal-setup-in-rails-6/) was loosely followed for setup.  
+To satisfy requirement 2. The system should be able to potentially support larger sets of data on the order of 10k records.  
+Server side processing and paging (with gem `kaminari`) was used.  
