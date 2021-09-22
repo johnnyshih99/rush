@@ -57,7 +57,8 @@ If you have any questions regarding requirements, do not hesitate to email your 
 * Ruby version  
 ruby '2.5.3'  
 rails 6.1.4  
-After db setup, run `bundle exec rails server` to start up the server  
+After db setup, run `yarn` to make sure javascripts packages are properly set up  
+Then `bundle exec rails server` to start up the server  
 
 * Database  
 The default sqlite3 is used  
@@ -66,5 +67,5 @@ A rake task (`lib/tasks/db.rake`) is created to import json files
 Or a very simple seed is created. The script relies on `rushing.json` being in the `public/` folder  
 run `bundle exec rails db:seed` to populate initial data  
 
-* Solution
-The solution uses [datatable.net](https://datatables.net/) for much of the table functionalities. [This blogpost](https://aarvy.me/blog/2019/09/21/datatables-with-bootstrap-4-minimal-setup-in-rails-6/) was loosely followed for setup.  
+* Solution  
+The solution uses [datatable.net](https://datatables.net/) for many of the table functionalities. [This blogpost](https://aarvy.me/blog/2019/09/21/datatables-with-bootstrap-4-minimal-setup-in-rails-6/) was loosely followed for setup.  
